@@ -1,0 +1,18 @@
+Strapi + mongodb docker-compose.yml 
+
+to download and develop locally: 
+
+first# docker-compose pull
+
+second# create .env file 
+
+third# docker-compose up -d
+
+fourth# wait and check logs until fully installed 
+    to check logs : docker-compose logs --tail=all -f | grep strapiexample
+
+    once installed open http://localhost:1337/admin in browser 
+
+    Welcome to strapi
+
+    -currently working on creating default deployment file 
